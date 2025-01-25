@@ -1,0 +1,76 @@
+.header_outer_container{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 132, 132);
+    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1; 
+    /* background-color: red; */
+        
+}
+
+/* .nav_black{
+    background-color: rgb(20, 20, 20);
+}
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+/* }
+.header_left ul{
+width: 140%;
+display: flex;
+} */ 
+
+/* .header_outer_container {  
+    background-color: #141414; /* Dark background */  
+    /* padding: 10px 20px; /* Padding around the header */  
+/* }  
+/*  */
+
+
+.header_container {  
+    display: flex;  
+    justify-content: space-between; /* Space between left and right sections */  
+    align-items: center; /* Center items vertically */  
+}  
+
+.header_left ul {  
+    display: flex; /* Horizontal list */  
+    list-style: none; /* Remove bullet points */  
+    padding: 0; /* Remove padding */  
+    margin: 0; /* Remove margin */  
+}  
+
+.header_left li {  
+    margin-right: 20px; /* Space between items */  
+    color: white; /* Text color */  
+    cursor: pointer; /* Pointer on hover */  
+}  
+
+.header_left img {  
+    width: 100px; /* Set logo width */  
+    margin-right: 20px; /* Space after logo */  
+}  
+
+.header_right ul {  
+    display: flex; /* Horizontal list for icons */  
+    list-style: none; /* Remove bullet points */  
+    padding: 0; /* Remove padding */  
+    margin: 0; /* Remove margin */  
+}  
+
+.header_right li {  
+    margin-left: 20px; /* Space between icons */  
+    color: white; /* Icon color */  
+    cursor: pointer; /* Pointer on hover */ 
+}
