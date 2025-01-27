@@ -1,12 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import {BrowserRouter, Routes, Route} from React;
 
 // require("dotenv").config();
 import './index.css'
 import App from './App'
 
 createRoot(document.getElementById('root')).render(
+
   <StrictMode>
-    <App />
+    <BrowserRouter basename= "/netflix">
+       <App /> 
+    </BrowserRouter>
+  
   </StrictMode>,
-)
+
+);
